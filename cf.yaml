@@ -1,8 +1,3 @@
-脚本功能：多邻国解锁Plus
-软件版本：6.163.0
-脚本作者：Hausd0rff
-更新时间：2022-04-06
-
 http:
   mitm:
     - '*.duolingo.com'
