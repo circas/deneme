@@ -1,12 +1,11 @@
 http:
   mitm:
     - '*.duolingo.com'
-     - 'ios-api-2.duolingo.com'
+    - 'ios-api-2.duolingo.com'
 
   script:
     # Duolingo 用户数据接口：无限红心 + Max
     # 匹配模式：任意 duolingo 域名下，路径中包含 /YYYY-MM-DD/users/
-    #- match: https?:\/\/(?:[a-zA-Z0-9-]+\.)?duolingo\.[^\/]+\/\d{4}-\d{2}-\d{2}\/users\/
     - match: ^https?:\/\/ios-api-2\.duolingo\.cn\/2017-06-30\/login$
       name: duolingo_unlimited_hearts_max
       type: response
