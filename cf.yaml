@@ -7,7 +7,7 @@ https://ios-api-cf.duolingo.com/2023-05-23/
     # Duolingo 用户数据接口：无限红心 + Max
     # 匹配模式：任意 duolingo 域名下，路径中包含 /YYYY-MM-DD/users/
     #- match: ^https?:\/\/ios-api-2\.duolingo\.com\/2017-06-30\/login$
-     - match: ^https://ios-api-cf.duolingo.com/2023-05-23/*
+    - match: ^https://ios-api-cf.duolingo.com/2023-05-23/*
       name: duolingo_unlimited_hearts_max
       type: response
       require-body: true
