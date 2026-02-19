@@ -17,6 +17,6 @@ script-providers:
   duolingo_unlimited_hearts_max:
     # 请将 <yourname> <yourrepo> 替换成你自己的 GitHub 用户名与仓库名
     # 如果你脚本在 main 分支：/main/duolingo_unlimited_hearts_max.js
-    url: https://raw.githubusercontent.com/circas/deneme/refs/heads/main/dec.js
+    url: https://raw.githubusercontent.com/circas/duo/refs/heads/main/dut.js
     interval: 86400
 
