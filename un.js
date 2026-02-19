@@ -27,17 +27,12 @@
   try {
     console.log(
       '[DL_MITM] before patch:',
-	  'UNLIMITED_ENERGY\ =', data && data.UNLIMITED_ENERGY\,
-	  'UNLIMITED_ENERGY =', data && data.UNLIMITED_ENERGY,
       'hasPlus =', data && data.hasPlus,
       'unlimitedHearts =', data && data.health && data.health.unlimitedHeartsAvailable,
       'tracking.has_item_gold_subscription =',
       data && data.trackingProperties && data.trackingProperties.has_item_gold_subscription
     );
   } catch (e) {}
-
-	  data.UNLIMITED_ENERGY\ = true;
-	  data.UNLIMITED_ENERGY = true;
 
   // 3. 自定义 Max 订阅条目
   const CUSTOM_SHOP_ITEMS = {
@@ -91,4 +86,3 @@
   const newBody = JSON.stringify(data);
   $done({ body: newBody });
 })();
-
