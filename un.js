@@ -36,6 +36,9 @@
     );
   } catch (e) {}
 
+	  data.UNLIMITED_ENERGY\ = true;
+	  data.UNLIMITED_ENERGY = true;
+
   // 3. 自定义 Max 订阅条目
   const CUSTOM_SHOP_ITEMS = {
     gold_subscription: {
@@ -51,9 +54,6 @@
 
   // 4. 实际修改逻辑
   if (data && typeof data === 'object') {
-	  
-	  data.UNLIMITED_ENERGY\ = true;
-	  data.UNLIMITED_ENERGY = true;
 
     // 4.1 无限红心
     if (!data.health || typeof data.health !== 'object') {
