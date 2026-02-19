@@ -1,3 +1,5 @@
+name: duo
+desc: duo 美
 http:
   mitm:
     - '*.duolingo.com'
